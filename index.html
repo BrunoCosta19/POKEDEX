@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokédex-project</title>
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    
+    <div class="container">
+        <nav>
+            <h1 class="text-center header mt-5"><strong>Pokédex</strong></h1>
+        </nav><strong></strong>
+        
+        <div class="text-center searchbar col-8 offset-2">
+            <input type="text" id="pokeSearch10" placeholder="Nome do pokemon EX. ivysaur" width="1000px" class=" d-inline-block m-1 mt-5 mr-4">
+            <button class=" d-inline-block mr-4  btn-poke"  id="pokeSearch2" onclick="searchPokemons()" >Buscar</button>
+        </div>
+    </div>
+    <div class="container2">
+        <ul data-js="pokedex" class="pokedex"></ul>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
